@@ -1,6 +1,5 @@
 import subprocess
-from tkinter import filedialog
-from tkinter import *
+from tkinter import filedialog, Tk, Pack, Button
 import os
 import pickle
 
