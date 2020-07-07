@@ -1,11 +1,11 @@
 import subprocess
 from tkinter import filedialog
-from tkinter import *
+from tkinter import Button, Tk
 import os
 import pickle
 
 gui = Tk()
-gui.geometry("450x200")
+gui.geometry("200x175")
 gui.title("Sonic Selector v0.2")
 
 def SGPathSave():
